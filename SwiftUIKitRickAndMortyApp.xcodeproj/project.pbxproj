@@ -14,6 +14,7 @@
 		C3394E412A30AA5D005998FD /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3394E402A30AA5C005998FD /* RMSingleLocation.swift */; };
 		C3394E432A30AB1D005998FD /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3394E422A30AB1D005998FD /* RMCharacterStatus.swift */; };
 		C3394E452A30ABD3005998FD /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3394E442A30ABD3005998FD /* RMCharacterGender.swift */; };
+		C3394E492A320E4A005998FD /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3394E482A320E4A005998FD /* RMGetAllCharactersResponse.swift */; };
 		C34E7DC02A2BD4FB0072D29A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E7DBF2A2BD4FB0072D29A /* AppDelegate.swift */; };
 		C34E7DC22A2BD4FB0072D29A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E7DC12A2BD4FB0072D29A /* SceneDelegate.swift */; };
 		C34E7DC42A2BD4FB0072D29A /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E7DC32A2BD4FB0072D29A /* RMTabViewController.swift */; };
@@ -35,6 +36,7 @@
 		C3394E402A30AA5C005998FD /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 		C3394E422A30AB1D005998FD /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
 		C3394E442A30ABD3005998FD /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
+		C3394E482A320E4A005998FD /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		C34E7DBC2A2BD4FB0072D29A /* SwiftUIKitRickAndMortyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIKitRickAndMortyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34E7DBF2A2BD4FB0072D29A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C34E7DC12A2BD4FB0072D29A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3394E462A320E05005998FD /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				C34E7DDA2A2CD7C10072D29A /* RMLocation.swift */,
+				C34E7DDC2A2CD7D80072D29A /* RMCharacter.swift */,
+				C34E7DDE2A2CD7F60072D29A /* RMEpisode.swift */,
+				C3394E3E2A30AA05005998FD /* RMOrigin.swift */,
+				C3394E402A30AA5C005998FD /* RMSingleLocation.swift */,
+				C3394E422A30AB1D005998FD /* RMCharacterStatus.swift */,
+				C3394E442A30ABD3005998FD /* RMCharacterGender.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		C3394E472A320E20005998FD /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				C3394E482A320E4A005998FD /* RMGetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
+			sourceTree = "<group>";
+		};
 		C34E7DB32A2BD4FB0072D29A = {
 			isa = PBXGroup;
 			children = (
@@ -136,13 +160,8 @@
 		C34E7DD82A2CD7450072D29A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C34E7DDA2A2CD7C10072D29A /* RMLocation.swift */,
-				C34E7DDC2A2CD7D80072D29A /* RMCharacter.swift */,
-				C34E7DDE2A2CD7F60072D29A /* RMEpisode.swift */,
-				C3394E3E2A30AA05005998FD /* RMOrigin.swift */,
-				C3394E402A30AA5C005998FD /* RMSingleLocation.swift */,
-				C3394E422A30AB1D005998FD /* RMCharacterStatus.swift */,
-				C3394E442A30ABD3005998FD /* RMCharacterGender.swift */,
+				C3394E472A320E20005998FD /* APIResponseTypes */,
+				C3394E462A320E05005998FD /* DataTypes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -238,6 +257,7 @@
 			files = (
 				C3394E3F2A30AA05005998FD /* RMOrigin.swift in Sources */,
 				C3394E412A30AA5D005998FD /* RMSingleLocation.swift in Sources */,
+				C3394E492A320E4A005998FD /* RMGetAllCharactersResponse.swift in Sources */,
 				C3394E432A30AB1D005998FD /* RMCharacterStatus.swift in Sources */,
 				C3394E452A30ABD3005998FD /* RMCharacterGender.swift in Sources */,
 				C34E7DE42A2CEB6A0072D29A /* RMLocationViewController.swift in Sources */,
